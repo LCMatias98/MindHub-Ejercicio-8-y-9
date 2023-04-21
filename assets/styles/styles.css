@@ -1,0 +1,53 @@
+.DivIzquierdo{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 40vw;
+    height: 70vh;
+    margin: 5px;
+}
+
+h2{
+    margin: 10px;
+    padding: 10px;
+}
+
+.mapa{
+    width: 350px;
+    height: 200px;
+}
+
+.DivDerecho{
+    width: 40vw;
+    height: 70vh;
+    margin: 5px;
+}
+
+form{
+    width: 40vw;
+    height: 70vh;
+    margin: 5px;
+    background-color: aqua;
+}
+fieldset{
+    height: 20vh;
+    border-color: aqua;
+}
+
+textarea{
+    resize:none;
+    width: 30vw;
+    background-color: aquamarine;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    margin: 15vh;
+    background-color: aquamarine;
+}
+
+input{
+    background-color: aquamarine;
+    width: 30vw;
+    height: 5vh;
+}

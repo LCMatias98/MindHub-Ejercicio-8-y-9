@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8</title>
+
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="DivIzquierdo">
+                <h2>Registro de OSDeDA (Obra Social De Desarrolladores)</h2>
+                    <h2>Tel: <a href="tel:9703726385">9703726385</a></h2>
+                    <h2>Mail: <a href="mailto:contacto@osdeda.com">contacto@osdeda.com</a></h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210146.7595624452!2d-58.59811100478036!3d-34.615712929547385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses!2sar!4v1681933355521!5m2!1ses!2sar" class="mapa" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="DivDerecho">
+                <form action="./show_data.html" method="get">
+                    <fieldset class="datos-p">
+                        <!-- <legend>Formulario Ejercicio 8</legend> -->
+            
+                        <label class="label-fullname" for="name" >Nombre</label>
+                        <input  class="label-fullname" type="text" id="name" name="nombre" placeholder="Ingrese Nombre Completo">
+                    </fieldset>
+                    <fieldset>
+                        <label for="correo">Email</label>
+                        <input type="email" name="email" id="correo" placeholder="Email">
+                    </fieldset>         
+                    <fieldset>
+                        <label for="comentario">Comentario</label>
+                        <textarea name="coment" id="comentario" cols="10" rows="5" placeholder="Mensaje" ></textarea>
+                    </fieldset>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
